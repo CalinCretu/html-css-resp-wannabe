@@ -13,13 +13,8 @@
     *,
     *::before,
     *::after {
-    margin: 9px auto;
     padding: 0;
     box-sizing: border-box;
-    }
-
-    body {
-        background-color: #222222;
     }
 
     .steps .col {
@@ -27,7 +22,7 @@
       }
 
     .container {
-        padding: 0 20px;
+        padding: 0px 20px;
         display: inline;
     }
 
@@ -35,6 +30,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .col {
+      margin: 20px 0;
     }
 
     .lessons .col {
@@ -45,23 +44,24 @@
         width: 100%;
         height: auto;
         margin-bottom: 1rem;
-      }
+    }
 
-      .why-us .col-left {
+    .why-us .col-left {
         width: 80%;
-      }
+    }
 
-      .why-us .col-right {
-        width: 80%;
-      }
+    .why-us .col-right {
+      width: 80%;
+    }
 
-      .why-us {
-        background-color: #222222;
-      }
+    .why-us {
+      background-color: #222222;
+      padding-top: 40px;
+    }
 
-      .steps {
-        margin: 0;
-      }
+    .steps {
+      margin: 0;
+    }
 }
 
 
